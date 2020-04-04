@@ -1,0 +1,2 @@
+rootProject.name='HPApp'
+include ':app'

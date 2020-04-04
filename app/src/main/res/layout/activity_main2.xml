@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <ImageView
+        android:id="@+id/ml"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mercadolivre" />
+
+    <ImageView
+        android:id="@+id/la"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lojasamericanas" />
+
+
+    <ImageView
+        android:id="@+id/eb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/ebay" />
+
+    <ImageView
+        android:id="@+id/ns"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="1"
+        android:layout_column="1"
+        app:srcCompat="@drawable/netshoes" />
+
+    <ImageView
+        android:id="@+id/wb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@drawable/webmotors" />
+
+
+<ImageView
+        android:id="@+id/au"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_row="2"
+        android:layout_column="1"
+        app:srcCompat="@drawable/aboutus" />
+
+    <Button
+        android:id="@+id/mlbutton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onML"
+        android:text="mercado livre" />
+
+    <Button
+        android:id="@+id/ebbutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onEB"
+        android:text="ebay" />
+
+    <Button
+        android:id="@+id/wmbutton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="-25dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onWM"
+        android:text="webmotors" />
+
+    <Button
+        android:id="@+id/labutton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onLA"
+        android:text="lojas americanas" />
+
+    <Button
+        android:id="@+id/nsbutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onNS"
+        android:text="netshoes" />
+
+    <Button
+        android:id="@+id/aubutton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="-25dp"
+        android:backgroundTint="#F28B2B"
+        android:onClick="onAU"
+        android:text="about us" />
+
+
+</GridLayout>
+
